@@ -42,19 +42,19 @@
         <developerConnection>git@github.com:Evolveum/midpoint.git</developerConnection>
         <url>https://fisheye.evolveum.com/browse/midPoint</url>
     </scm>
-    
+
     <distributionManagement>
-      <repository>
-        <id>evolveum-nexus</id>
-        <name>Internal Releases</name>
-        <url>https://nexus.evolveum.com/nexus/content/repositories/releases/</url>
-      </repository>
-      <snapshotRepository>
-        <id>evolveum-nexus</id>
-        <name>Internal Releases</name>
-        <url>https://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
-      </snapshotRepository>
-    </distributionManagement>
+        <repository>
+            <id>s100-nexus</id>
+            <name>Internal Releases</name>
+            <url>http://s100.xpie.cn:10080/nexus/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>s100-nexus</id>
+            <name>Internal Snapshots</name>
+            <url>http://s100.xpie.cn:10080/nexus/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>    
 
 	<issueManagement>
 		<system>Atlassian JIRA</system>

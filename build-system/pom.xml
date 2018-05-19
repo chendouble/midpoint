@@ -29,9 +29,9 @@
     </parent>
     <pluginRepositories>
         <pluginRepository>
-            <id>evolveum</id>
-            <name>Evolveum</name>
-            <url>https://nexus.evolveum.com/nexus/content/groups/public</url>
+            <id>s100-nexus</id>
+            <name>Internal Releases</name>
+            <url>http://s100.xpie.cn:10080/nexus/repository/maven-public/</url>
         </pluginRepository>
     </pluginRepositories>
     <properties>
@@ -1240,18 +1240,18 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
+    
     <distributionManagement>
-      <repository>
-        <id>evolveum-nexus</id>
-        <name>Internal Releases</name>
-        <url>https://nexus.evolveum.com/nexus/content/repositories/releases/</url>
-      </repository>
-      <snapshotRepository>
-        <id>evolveum-nexus</id>
-        <name>Internal Snapshots</name>
-        <url>https://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
-      </snapshotRepository>
+        <repository>
+            <id>s100-nexus</id>
+            <name>Internal Releases</name>
+            <url>http://s100.xpie.cn:10080/nexus/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>s100-nexus</id>
+            <name>Internal Releases</name>
+            <url>http://s100.xpie.cn:10080/nexus/repository/maven-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 
     <issueManagement>
